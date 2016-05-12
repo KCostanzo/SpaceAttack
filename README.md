@@ -4,7 +4,7 @@
 
 [live]: http://kcostanzo.github.io/SpaceAttack/
 
-Space Attack is based on the classic arcade game Space Invaders built entirely in JS front-end.
+Space Attack is based on the classic arcade game Space Invaders built entirely in JavaScript front-end.
 
 ###Instructions
 
@@ -14,7 +14,7 @@ Dodge the enemy bullets!
 
 ###Tech
 
-All JS, built using canvas display and position mapping.
+All JavaScript, built using canvas display and position mapping.
 
 ###Implementation Details
 
@@ -28,7 +28,7 @@ One of the more difficult aspects of this game's construction was determining ho
     }
   });
 ```
-A potential weakness that will hinder future levl construction is in my reverseEnemies() function, which currently runs based on a set Interval:
+A potential weakness that will hinder future level construction is in my reverseEnemies() function, which currently runs based on a set Interval:
 
 ```javascript
 	Game.prototype.reverseEnemies = function() {
