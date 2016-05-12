@@ -39,7 +39,7 @@ A potential weakness that will hinder future levl construction is in my reverseE
 	  });
 	};
 ```
-called in the game view with:
+called in the game view start method with:
 
 ```javascript
 	setInterval(this.game.reverseEnemies.bind(this.game),4700);
